@@ -1,0 +1,15 @@
+{
+	"Levels" 		: [
+		"Home.json",
+		"Intro.json",
+		"Level0.json", "Level1.json", "Level2.json", "Level3.json",
+		"HowToPlay.json",
+		"Credits.json",
+		"PauseMenu.json",
+		"GameOver.json",
+		"Win.json"
+	],
+
+	"Initiate" 		: "Home.json",
+	"GameLevels"	: ["Home.json", "Intro.json", "Level0.json", "Level1.json", "Level2.json", "Level3.json", "Win.json"]
+}

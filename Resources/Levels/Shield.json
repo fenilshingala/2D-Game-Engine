@@ -1,0 +1,24 @@
+{
+
+  "Type" : "Shield",
+
+  "Transform" : {
+    "posx" : 0.0,
+    "posy" : 0.0,
+    "scaleX" : 0.0,
+    "scaleY" : 0.0
+  },
+
+  "Sprite": {
+      "Shape": "Rectangle",
+      "texture": "../Resources/Textures/Shield.png",
+      "colorx" : 1.0,
+      "colory" : 1.0,
+      "colorz" : 1.0
+  },
+
+  "Body" : {
+      "Circle" : true
+   }
+
+}

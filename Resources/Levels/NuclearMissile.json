@@ -1,0 +1,28 @@
+{
+
+  "Type" : "NuclearMissile",
+
+  "Transform" : {
+    "posx" : 0.0,
+    "posy" : 0.0,
+    "scaleX" : 60.0,
+    "scaleY" : 40.0
+  },
+
+  "Sprite": {
+    "Shape"      : "Rectangle",
+	  "texture"    : "../Resources/Textures/nuclearmissile.png",
+    "animation"  : "../Resources/Textures/bomb-sprite.png",
+    "sheetdimensionX" : 4,
+    "sheetdimensionY" : 4,
+    "colorx"     : 1.0,
+    "colory"     : 1.0,
+    "colorz"     : 1.0
+  },
+
+  "Body" : {
+    "AABB" : true
+  },
+
+  "Expand" : {}
+}

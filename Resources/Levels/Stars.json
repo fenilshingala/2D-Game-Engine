@@ -1,0 +1,20 @@
+{
+
+  "Type" : "Stars",
+
+  "Transform" : {
+  	"posx" : 0.0,
+  	"posy" : 0.0,
+  	"scaleX" : 3.0,
+    "scaleY" : 3.0
+  },
+
+  "Sprite": {
+    "Shape": "Rectangle",
+    "texture": "../Resources/Textures/dot.png",
+    "colorx" : 1.0,
+    "colory" : 1.0,
+    "colorz" : 1.0
+  }
+
+}

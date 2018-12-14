@@ -1,0 +1,64 @@
+{
+	"ListOfObjectFiles" : [
+    	"Button.json", "Text.json"
+  	],
+
+    "Player1": {
+        "file": "Button.json",
+        
+        "Transform" : {
+          "posx" : 400.0,
+          "posy" : 300.0,
+          "scaleX" : 200.0,
+          "scaleY" : 150.0
+        },
+
+        "Sprite": {
+          "Shape": "Rectangle",
+          "texture": "../Resources/Textures/main_menu.png",
+          "colorx" : 1.0,
+          "colory" : 0.7,
+          "colorz" : 0.2
+        },
+
+        "Button" : { "name" : "MainMenu" }
+    },
+
+    "Player2": {
+        "file": "Button.json",
+        
+        "Transform" : {
+          "posx" : 400.0,
+          "posy" : 170.0,
+          "scaleX" : 200.0,
+          "scaleY" : 100.0
+        },
+
+        "Sprite": {
+          "Shape": "Rectangle",
+          "texture": "../Resources/Textures/Button_QuitGame.png",
+          "colorx" : 1.0,
+          "colory" : 0.7,
+          "colorz" : 0.2
+        },
+
+        "Button" : { "name" : "Quit" }
+    },
+
+    "Player3": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "You won. YAY! Don't hate me if you don't like this game.",
+            "posx"    : 150.0,
+            "posy"    : 425.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.1,
+            "count"   : -1,
+            "isAnim"  : true
+        }
+    }
+
+}

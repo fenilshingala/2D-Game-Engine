@@ -1,0 +1,138 @@
+{
+
+  "ListOfObjectFiles" : ["Text.json", "Button.json"],
+
+  "Player1": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "You Want to Know How to Play?!  Here's what you can DO..",
+            "posx"    : 25.0,
+            "posy"    : 525.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.7,
+            "colory"  : 0.7,
+            "colorz"  : 0.7,
+            "timer"   : 0.0,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player2": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "-> Press LEFT, RIGHT to move.  Yes, you can't use UP, DOWN.  It sucks.",
+            "posx"    : 25.0,
+            "posy"    : 475.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player3": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "-> Then try mouse left button to shoot those nasty meteors.",
+            "posx"    : 25.0,
+            "posy"    : 430.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player4": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "-> Once you get homing missile, press M to shoot meteor following missiles.",
+            "posx"    : 25.0,
+            "posy"    : 385.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player4": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "-> Hit P for pausing the game & then again keep pressing P to see each frame.",
+            "posx"    : 25.0,
+            "posy"    : 340.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player5": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "-> Hit S to resume.",
+            "posx"    : 25.0,
+            "posy"    : 295.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player6": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "-> D for debug mode.",
+            "posx"    : 25.0,
+            "posy"    : 250.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player7": {
+        "file": "Button.json",
+        
+        "Transform" : {
+          "posx" : 600.0,
+          "posy" : 50.0,
+          "scaleX" : 200.0,
+          "scaleY" : 100.0
+        },
+
+        "Sprite": {
+          "Shape": "Rectangle",
+          "texture": "../Resources/Textures/button-back.png",
+          "colorx" : 1.0,
+          "colory" : 0.7,
+          "colorz" : 0.2
+        },
+
+        "Button" : { "name" : "MainMenu" }
+    }
+
+}

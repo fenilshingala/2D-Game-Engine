@@ -1,0 +1,147 @@
+{
+
+	"ListOfObjectFiles" : [
+    "Button.json", "Text.json"
+  ],
+
+	"Player1": {
+        "file": "Button.json",
+        
+        "Transform" : {
+          "posx" : 650.0,
+          "posy" : 100.0,
+          "scaleX" : 175.0,
+          "scaleY" : 85.0
+        },
+
+        "Sprite": {
+          "Shape": "Rectangle",
+          "texture": "../Resources/Textures/skip.png",
+          "colorx" : 1.0,
+          "colory" : 0.7,
+          "colorz" : 0.2
+        },
+
+        "Button" : { "name" : "Skip" }
+    },
+
+    "Player2": {
+        "file": "Text.json",
+        "Text" : {
+            "startTime" : 0.0,
+            "string"    : "You're all alone in this universe. Lost..",
+            "posx"      : 25.0,
+            "posy"      : 525.0,
+            "scale"     : 1.0,
+            "colorx"    : 0.5,
+            "colory"    : 0.5,
+            "colorz"    : 0.5,
+            "timer"     : 0.1,
+            "count"     : 1,
+            "isAnim"    : true
+        }
+    },
+
+    "Player3": {
+        "file": "Text.json",
+        "Text" : {
+            "startTime" : 5.0,
+            "string"    : "You don't know what to do. You're just roaming around in the universe.",
+            "posx"      : 25.0,
+            "posy"      : 500.0,
+            "scale"     : 1.0,
+            "colorx"    : 0.5,
+            "colory"    : 0.5,
+            "colorz"    : 0.5,
+            "timer"     : 0.1,
+            "count"     : 1,
+            "isAnim"    : true
+        }
+    },
+
+    "Player4": {
+        "file": "Text.json",
+        "Text" : {
+            "startTime" : 13.0,
+            "string"    : "Chilling! Doing your own business.",
+            "posx"      : 25.0,
+            "posy"      : 475.0,
+            "scale"     : 1.0,
+            "colorx"    : 0.5,
+            "colory"    : 0.5,
+            "colorz"    : 0.5,
+            "timer"     : 0.1,
+            "count"     : 1,
+            "isAnim"    : true
+        }
+    },
+
+    "Player5": {
+        "file": "Text.json",
+        "Text" : {
+            "startTime" : 18.0,
+            "string"    : "But.. when everything seemed just fine, it happened. Life happened.",
+            "posx"      : 25.0,
+            "posy"      : 450.0,
+            "scale"     : 1.0,
+            "colorx"    : 0.5,
+            "colory"    : 0.5,
+            "colorz"    : 0.5,
+            "timer"     : 0.1,
+            "count"     : 1,
+            "isAnim"    : true
+        }
+    },
+
+    "Player5": {
+        "file": "Text.json",
+        "Text" : {
+            "startTime" : 26.0,
+            "string"    : "And if you know when life happens, it sucks. Literally.",
+            "posx"      : 25.0,
+            "posy"      : 425.0,
+            "scale"     : 1.0,
+            "colorx"    : 0.5,
+            "colory"    : 0.5,
+            "colorz"    : 0.5,
+            "timer"     : 0.1,
+            "count"     : 1,
+            "isAnim"    : true
+        }
+    },
+
+    "Player6": {
+        "file": "Text.json",
+        "Text" : {
+            "startTime" : 33.0,
+            "string"    : "Those meteors will come crashing on you. But hey you can always dodge.",
+            "posx"      : 25.0,
+            "posy"      : 400.0,
+            "scale"     : 1.0,
+            "colorx"    : 0.5,
+            "colory"    : 0.5,
+            "colorz"    : 0.5,
+            "timer"     : 0.1,
+            "count"     : 1,
+            "isAnim"    : true
+        }
+    },
+
+    "Player6": {
+        "file": "Text.json",
+        "Text" : {
+            "startTime" : 42.0,
+            "string"    : "So let's begin.",
+            "posx"      : 25.0,
+            "posy"      : 375.0,
+            "scale"     : 1.0,
+            "colorx"    : 0.5,
+            "colory"    : 0.5,
+            "colorz"    : 0.5,
+            "timer"     : 0.1,
+            "count"     : 1,
+            "isAnim"    : true
+        }
+    }
+
+}

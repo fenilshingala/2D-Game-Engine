@@ -1,0 +1,8 @@
+{
+    "Type" : "RectButton",
+
+    "Body" : {
+      "Mass" : 0.0,
+      "AABB" : true
+    }
+}

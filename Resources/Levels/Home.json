@@ -1,0 +1,109 @@
+{
+
+	"ListOfObjectFiles" : [
+    "Player.json", "Meteor.json", "Bullet.json", "Button.json", "Text.json"
+  ],
+
+	"Player1": {
+        "file": "Button.json",
+        
+        "Transform" : {
+          "posx" : 400.0,
+          "posy" : 400.0,
+          "scaleX" : 200.0,
+          "scaleY" : 100.0
+        },
+
+        "Sprite": {
+          "Shape": "Rectangle",
+          "texture": "../Resources/Textures/start.png",
+          "colorx" : 1.0,
+          "colory" : 0.7,
+          "colorz" : 0.2
+        },
+
+        "Button" : { "name" : "StartGame" }
+    },
+
+
+    "Player2": {
+        "file": "Button.json",
+        
+        "Transform" : {
+          "posx" : 400.0,
+          "posy" : 310.0,
+          "scaleX" : 200.0,
+          "scaleY" : 100.0
+        },
+
+        "Sprite": {
+          "Shape": "Rectangle",
+          "texture": "../Resources/Textures/Controls.png",
+          "colorx" : 1.0,
+          "colory" : 0.7,
+          "colorz" : 0.2
+        },
+
+        "Button" : { "name" : "HowToPlay" }
+    },
+
+
+    "Player3": {
+        "file": "Button.json",
+        
+        "Transform" : {
+          "posx" : 400.0,
+          "posy" : 200.0,
+          "scaleX" : 200.0,
+          "scaleY" : 100.0
+        },
+
+        "Sprite": {
+          "Shape": "Rectangle",
+          "texture": "../Resources/Textures/Button_QuitGame.png",
+          "colorx" : 1.0,
+          "colory" : 0.7,
+          "colorz" : 0.2
+        },
+
+        "Button" : { "name" : "Quit" }
+    },
+
+    "Player4": {
+        "file": "Button.json",
+        
+        "Transform" : {
+          "posx" : 700.0,
+          "posy" : 50.0,
+          "scaleX" : 180.0,
+          "scaleY" : 90.0
+        },
+
+        "Sprite": {
+          "Shape": "Rectangle",
+          "texture": "../Resources/Textures/creditsButton.png",
+          "colorx" : 1.0,
+          "colory" : 0.7,
+          "colorz" : 0.2
+        },
+
+        "Button" : { "name" : "Credits" }
+    },
+
+    "Player5": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "WELCOME TO A SHITTY GAME!",
+            "posx" : 25.0,
+            "posy" : 25.0,
+            "scale" : 1.0,
+            "colorx" : 0.5,
+            "colory" : 0.5,
+            "colorz" : 0.5,
+            "timer" : 0.2,
+            "count" : -1,
+            "isAnim" : true
+        }
+    }
+
+}

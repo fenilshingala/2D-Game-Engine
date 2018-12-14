@@ -1,0 +1,81 @@
+{
+  "ListOfObjectFiles" : [
+      "Player.json",
+      "Meteor.json",
+      "Bullet.json",
+      "HomingMissile.json",
+      "NuclearMissile.json",
+      "Stars.json",
+      "EnemyShip.json",
+      "Text.json",
+      "Shield.json"
+  ],
+  
+  "noOfEnemyShip"         : 0,
+  "noOfMeteors"           : 15,
+  "TotalMeteors"          : 60,
+  "MeteorVelocity"        : 260000,
+  "noOfStars"             : 40,
+  "BulletAllowed"         : true,
+  "HomingAllowed"         : true,
+  "NuclearAllowed"        : false,
+  "EnemnyShipAllowed"     : false,
+
+  "noOfHoming"            : 10,
+
+  "Background"   : { "file": "Stars.json" },
+     
+  "Player1"      : { "file": "Player.json" },
+    
+  "Player2"      : { "file": "Meteor.json" },
+
+  "Player3": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "LEVEL2",
+            "posx"    : 325.0,
+            "posy"    : 325.0,
+            "scale"   : 2.0,
+            "colorx"  : 0.7,
+            "colory"  : 0.7,
+            "colorz"  : 0.7,
+            "timer"   : 0.2,
+            "count"   : 1,
+            "isAnim"  : true
+        }
+  },
+
+  "Player4": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "LEVEL2",
+            "posx"    : 705.0,
+            "posy"    : 25.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.7,
+            "colory"  : 0.7,
+            "colorz"  : 0.7,
+            "timer"   : 0.0,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player5": {
+        "file": "Text.json",
+        "Text" : {
+            "startTime" : 0.0,
+            "string"    : "'M' for homing missile",
+            "posx"      : 25.0,
+            "posy"      : 75.0,
+            "scale"     : 1.0,
+            "colorx"    : 0.5,
+            "colory"    : 0.5,
+            "colorz"    : 0.5,
+            "timer"     : 0.2,
+            "count"     : 1,
+            "isAnim"    : true
+        }
+    }
+
+}

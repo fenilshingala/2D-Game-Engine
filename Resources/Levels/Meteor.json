@@ -1,0 +1,26 @@
+{
+  "Type" : "Meteor",
+
+  "Transform" : {
+    "posx" : 0.0,
+    "posy" : 0.0,
+    "scaleX" : 50.0,
+    "scaleY" : 50.0
+  },
+
+  "Sprite": {
+    "Shape": "Rectangle",
+    "texture": "../Resources/Textures/meteor.png",
+    "animation": "../Resources/Textures/bomb-sprite.png",
+    "sheetdimensionX": 4,
+    "sheetdimensionY": 4,
+    "colorx" : 1.0,
+    "colory" : 0.7,
+    "colorz" : 0.2
+  },
+
+  "Body" : {
+      "Mass" : 0.0009,
+      "AABB" : true
+  }
+}

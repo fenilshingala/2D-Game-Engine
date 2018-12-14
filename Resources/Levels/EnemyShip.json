@@ -1,0 +1,26 @@
+{
+
+  "Type" : "EnemyShip",
+
+  "Transform" : {
+  	"posx" : 0.0,
+  	"posy" : 0.0,
+  	"scaleX" : 100.0,
+    "scaleY" : 100.0
+  },
+
+  "Sprite": {
+    "Shape": "Rectangle",
+    "texture": "../Resources/Textures/enemyship.png",
+    "colorx" : 0.0,
+    "colory" : 0.0,
+    "colorz" : 0.0
+  },
+
+  "Body" : {
+    "Mass" : 0.0000,
+    "AABB" : true
+  },
+
+  "AI" : {}
+}

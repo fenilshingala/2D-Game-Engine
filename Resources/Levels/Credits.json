@@ -1,0 +1,202 @@
+{
+
+  "ListOfObjectFiles" : ["Text.json", "Button.json"],
+
+  "Player1": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "Created by",
+            "posx"    : 25.0,
+            "posy"    : 525.0,
+            "scale"   : 2.0,
+            "colorx"  : 0.7,
+            "colory"  : 0.7,
+            "colorz"  : 0.7,
+            "timer"   : 0.0,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player2": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "Fenil Shingala",
+            "posx"    : 25.0,
+            "posy"    : 490.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player3": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "Guided by",
+            "posx"    : 425.0,
+            "posy"    : 525.0,
+            "scale"   : 2.0,
+            "colorx"  : 0.7,
+            "colory"  : 0.7,
+            "colorz"  : 0.7,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player4": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "Prof. Antoine Rafik Abi Chakra",
+            "posx"    : 425.0,
+            "posy"    : 490.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player5": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "Special Thanks to-",
+            "posx"    : 25.0,
+            "posy"    : 410.0,
+            "scale"   : 2.0,
+            "colorx"  : 0.7,
+            "colory"  : 0.7,
+            "colorz"  : 0.7,
+            "timer"   : 0.0,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player6": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "Ajay Singh Tanwar    (for guidance)",
+            "posx"    : 25.0,
+            "posy"    : 375.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player7": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "Varun Premchandran   (for guidance)",
+            "posx"    : 25.0,
+            "posy"    : 335.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player8": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "learnopengl.com    (for help on opengl)",
+            "posx"    : 25.0,
+            "posy"    : 295.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player9": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "Google Images    (for textures)",
+            "posx"    : 25.0,
+            "posy"    : 255.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player11": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "FreeType   (for Font operations)",
+            "posx"    : 25.0,
+            "posy"    : 215.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player12": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "IrrKlang   (for Sound Engine)",
+            "posx"    : 25.0,
+            "posy"    : 175.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
+  "Player13": {
+        "file": "Button.json",
+        
+        "Transform" : {
+          "posx" : 600.0,
+          "posy" : 50.0,
+          "scaleX" : 200.0,
+          "scaleY" : 100.0
+        },
+
+        "Sprite": {
+          "Shape": "Rectangle",
+          "texture": "../Resources/Textures/button-back.png",
+          "colorx" : 1.0,
+          "colory" : 0.7,
+          "colorz" : 0.2
+        },
+
+        "Button" : { "name" : "MainMenu" }
+    }
+
+}

@@ -1,0 +1,23 @@
+{
+
+  "Type" : "Bullet",
+
+  "Transform" : {
+    "posx" : 0.0,
+    "posy" : 0.0,
+    "scaleX" : 15.0,
+    "scaleY" : 1.0
+  },
+
+  "Sprite": {
+    "Shape": "Rectangle",
+    "colorx" : 1.0,
+    "colory" : 1.0,
+    "colorz" : 1.0
+  },
+
+  "Body" : {
+    "AABB" : true
+  }
+
+}

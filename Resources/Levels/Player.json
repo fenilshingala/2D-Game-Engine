@@ -1,0 +1,26 @@
+{
+
+  "Type" : "Player",
+
+  "Transform" : {
+  	"posx" : 400.0,
+  	"posy" : 45.0,
+  	"scaleX" : 75.0,
+    "scaleY" : 75.0
+  },
+
+  "Sprite": {
+    "Shape": "Rectangle",
+    "texture": "../Resources/Textures/spaceship1.png",
+    "colorx" : 1.0,
+    "colory" : 1.0,
+    "colorz" : 1.0
+  },
+
+  "Controller" : {},
+
+  "Body" : {
+    "Mass" : 0.0005,
+    "AABB" : true
+  }
+}

@@ -1,0 +1,69 @@
+{
+	"ListOfObjectFiles" : [
+    	"Button.json", "Text.json"
+  	],
+
+	"Player1": {
+        "file": "Button.json",
+        
+        "Transform" : {
+          "posx" : 400.0,
+          "posy" : 430.0,
+          "scaleX" : 200.0,
+          "scaleY" : 200.0
+        },
+
+        "Sprite": {
+          "Shape": "Rectangle",
+          "texture": "../Resources/Textures/game-over.png",
+          "colorx" : 1.0,
+          "colory" : 0.7,
+          "colorz" : 0.2
+        },
+
+        "Button" : { "name" : "GameOver" }
+    },
+
+    "Player2": {
+        "file": "Button.json",
+        
+        "Transform" : {
+          "posx" : 400.0,
+          "posy" : 290.0,
+          "scaleX" : 200.0,
+          "scaleY" : 150.0
+        },
+
+        "Sprite": {
+          "Shape": "Rectangle",
+          "texture": "../Resources/Textures/button-try-again.png",
+          "colorx" : 1.0,
+          "colory" : 0.7,
+          "colorz" : 0.2
+        },
+
+        "Button" : { "name" : "TryAgain" }
+    },
+
+    "Player3": {
+        "file": "Button.json",
+        
+        "Transform" : {
+          "posx" : 400.0,
+          "posy" : 180.0,
+          "scaleX" : 200.0,
+          "scaleY" : 100.0
+        },
+
+        "Sprite": {
+          "Shape": "Rectangle",
+          "texture": "../Resources/Textures/Button_QuitGame.png",
+          "colorx" : 1.0,
+          "colory" : 0.7,
+          "colorz" : 0.2
+        },
+
+        "Button" : { "name" : "Quit" }
+    }
+
+}
