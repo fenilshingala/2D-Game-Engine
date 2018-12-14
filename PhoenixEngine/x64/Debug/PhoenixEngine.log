@@ -1,0 +1,121 @@
+﻿  AI.cpp
+  Body.cpp
+  Button.cpp
+  Component.cpp
+  Controller.cpp
+  Expand.cpp
+  Sprite.cpp
+  Target.cpp
+c:\users\fenil\documents\digipen\cs529\gameengine\opengl\phoenixengine\phoenixengine\components\target.cpp(76): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Text.cpp
+c:\users\fenil\documents\digipen\cs529\gameengine\opengl\phoenixengine\phoenixengine\components\text.cpp(104): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Transform.cpp
+  UpDown.cpp
+  GameObject.cpp
+  Main.cpp
+c:\users\fenil\documents\digipen\cs529\gameengine\opengl\phoenixengine\phoenixengine\main.cpp(172): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  CollisionManager.cpp
+  EventManager.cpp
+  FrameRateController.cpp
+  GameObjectManager.cpp
+  GameStateManager.cpp
+  InputManager.cpp
+  ParticleManager.cpp
+  Generating Code...
+  Compiling...
+  PhysicsManager.cpp
+c:\users\fenil\documents\digipen\cs529\gameengine\opengl\phoenixengine\phoenixengine\managers\physicsmanager.cpp(29): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  ResourceManager.cpp
+  Mesh.cpp
+  ObjectFactory.cpp
+c:\users\fenil\documents\digipen\cs529\gameengine\opengl\phoenixengine\phoenixengine\objectfactory.cpp(59): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\fenil\documents\digipen\cs529\gameengine\opengl\phoenixengine\phoenixengine\objectfactory.cpp(65): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\fenil\documents\digipen\cs529\gameengine\opengl\phoenixengine\phoenixengine\objectfactory.cpp(91): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\fenil\documents\digipen\cs529\gameengine\opengl\phoenixengine\phoenixengine\objectfactory.cpp(770): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Renderer.cpp
+c:\users\fenil\documents\digipen\cs529\gameengine\opengl\phoenixengine\phoenixengine\renderer.cpp(87): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Shader.cpp
+  stb_image.cpp
+  TextRenderer.cpp
+c:\users\fenil\documents\digipen\cs529\gameengine\opengl\phoenixengine\phoenixengine\textrenderer.cpp(79): warning C4838: conversion from 'FT_Pos' to 'unsigned int' requires a narrowing conversion
+  Generating Code...
+Button.obj : error LNK2019: unresolved external symbol SDL_GetMouseState referenced in function "public: virtual void __cdecl Button::update(void)" (?update@Button@@UEAAXXZ)
+ObjectFactory.obj : error LNK2001: unresolved external symbol SDL_GetMouseState
+Main.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function main
+Main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function main
+Main.obj : error LNK2019: unresolved external symbol SDL_SetWindowTitle referenced in function main
+Main.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function main
+Main.obj : error LNK2019: unresolved external symbol SDL_GL_CreateContext referenced in function main
+Main.obj : error LNK2019: unresolved external symbol SDL_GL_MakeCurrent referenced in function main
+Main.obj : error LNK2019: unresolved external symbol SDL_GL_SwapWindow referenced in function main
+Main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function main
+Main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class irrklang::ISoundEngine * __cdecl irrklang::createIrrKlangDevice(enum irrklang::E_SOUND_OUTPUT_DRIVER,int,char const *,char const *)" (__imp_?createIrrKlangDevice@irrklang@@YAPEAVISoundEngine@1@W4E_SOUND_OUTPUT_DRIVER@1@HPEBD1@Z) referenced in function main
+Main.obj : error LNK2001: unresolved external symbol __imp___GLEW_VERSION_2_0
+FrameRateController.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "public: void __cdecl FrameRateController::frameEnd(void)" (?frameEnd@FrameRateController@@QEAAXXZ)
+InputManager.obj : error LNK2019: unresolved external symbol SDL_memset referenced in function "public: __cdecl InputManager::InputManager(void)" (??0InputManager@@QEAA@XZ)
+InputManager.obj : error LNK2019: unresolved external symbol SDL_memcpy referenced in function "public: void __cdecl InputManager::update(void)" (?update@InputManager@@QEAAXXZ)
+InputManager.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardState referenced in function "public: void __cdecl InputManager::update(void)" (?update@InputManager@@QEAAXXZ)
+InputManager.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl InputManager::update(void)" (?update@InputManager@@QEAAXXZ)
+ParticleManager.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+ResourceManager.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+Renderer.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+TextRenderer.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+ParticleManager.obj : error LNK2001: unresolved external symbol __imp___glewUniform2fv
+ParticleManager.obj : error LNK2001: unresolved external symbol __imp___glewUniform4fv
+ParticleManager.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+Renderer.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+TextRenderer.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+ResourceManager.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+Renderer.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+ResourceManager.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+TextRenderer.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+TextRenderer.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewDeleteBuffers
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+TextRenderer.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+TextRenderer.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+TextRenderer.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+TextRenderer.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+Renderer.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+TextRenderer.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+Renderer.obj : error LNK2001: unresolved external symbol __imp___glewUniform1f
+Renderer.obj : error LNK2001: unresolved external symbol __imp___glewUniform3fv
+Renderer.obj : error LNK2001: unresolved external symbol __imp___glewUniform4f
+Renderer.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+TextRenderer.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+Renderer.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewDeleteProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+TextRenderer.obj : error LNK2019: unresolved external symbol FT_Init_FreeType referenced in function "public: __cdecl TextRenderer::TextRenderer(void)" (??0TextRenderer@@QEAA@XZ)
+TextRenderer.obj : error LNK2019: unresolved external symbol FT_Done_FreeType referenced in function "public: __cdecl TextRenderer::TextRenderer(void)" (??0TextRenderer@@QEAA@XZ)
+TextRenderer.obj : error LNK2019: unresolved external symbol FT_New_Face referenced in function "public: __cdecl TextRenderer::TextRenderer(void)" (??0TextRenderer@@QEAA@XZ)
+TextRenderer.obj : error LNK2019: unresolved external symbol FT_Done_Face referenced in function "public: __cdecl TextRenderer::TextRenderer(void)" (??0TextRenderer@@QEAA@XZ)
+TextRenderer.obj : error LNK2019: unresolved external symbol FT_Set_Pixel_Sizes referenced in function "public: __cdecl TextRenderer::TextRenderer(void)" (??0TextRenderer@@QEAA@XZ)
+TextRenderer.obj : error LNK2019: unresolved external symbol FT_Load_Char referenced in function "public: __cdecl TextRenderer::TextRenderer(void)" (??0TextRenderer@@QEAA@XZ)
+TextRenderer.obj : error LNK2001: unresolved external symbol __imp___glewBufferSubData
+TextRenderer.obj : error LNK2001: unresolved external symbol __imp___glewUniform3f
+..\Include\sdl-glew-glm\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+..\Include\sdl-glew-glm\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+..\Include\sdl-glew-glm\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+..\Include\freetype-windows-binaries-master\win32\freetype.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+..\Include\irrKlang-1.6.0\lib\Win32-visualStudio\irrKlang.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Fenil\Documents\Digipen\CS529\gameEngine\OpenGL\PhoenixEngine\x64\Debug\PhoenixEngine.exe : fatal error LNK1120: 57 unresolved externals

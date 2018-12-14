@@ -1,0 +1,33 @@
+﻿  AI.cpp
+  Body.cpp
+  Button.cpp
+  Component.cpp
+  Controller.cpp
+  Expand.cpp
+  Sprite.cpp
+  Target.cpp
+  Text.cpp
+  Transform.cpp
+  UpDown.cpp
+  GameObject.cpp
+  Main.cpp
+  CollisionManager.cpp
+  EventManager.cpp
+  FrameRateController.cpp
+  GameObjectManager.cpp
+  GameStateManager.cpp
+  InputManager.cpp
+  ParticleManager.cpp
+  Generating Code...
+  Compiling...
+  PhysicsManager.cpp
+  ResourceManager.cpp
+  Mesh.cpp
+  ObjectFactory.cpp
+  Renderer.cpp
+  Shader.cpp
+  stb_image.cpp
+  TextRenderer.cpp
+c:\users\fenil\documents\digipen\cs529\gameengine\opengl\phoenixengine\phoenixengine\textrenderer.cpp(79): warning C4838: conversion from 'FT_Pos' to 'unsigned int' requires a narrowing conversion
+  Generating Code...
+  PhoenixEngine.vcxproj -> C:\Users\Fenil\Documents\Digipen\CS529\gameEngine\OpenGL\PhoenixEngine\Debug\PhoenixEngine.exe
