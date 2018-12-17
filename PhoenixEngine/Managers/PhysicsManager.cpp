@@ -43,7 +43,7 @@ void PhysicsManager::update(float frameTime)
 
 	pCollisionManager->Reset();
 
-	for (unsigned int i = 0; i < count; ++i){
+	for (unsigned int i = 0; i < count; ++i) {
 
 		Body *pBody1 = nullptr;
 
@@ -70,79 +70,80 @@ void PhysicsManager::update(float frameTime)
 
 			if (pBody1->mpOwner->mType == pBody2->mpOwner->mType) continue;
 
-			if ( (pBody1->deleteCalled && pBody1->mpOwner->mType!=NUCLEARMISSILE) ||
-				 (pBody2->deleteCalled && pBody2->mpOwner->mType!=NUCLEARMISSILE) ) continue;
+			if ((pBody1->deleteCalled && pBody1->mpOwner->mType != NUCLEARMISSILE) ||
+				(pBody2->deleteCalled && pBody2->mpOwner->mType != NUCLEARMISSILE)) continue;
 
 			if (pCollisionManager->ChechCollisionAndGenerate(
 				pBody1->mpShape, pBody1->mPosX, pBody1->mPosY,
 				pBody2->mpShape, pBody2->mPosX, pBody2->mPosY
-				)
 			)
+				)
 			{
-				// Super advanced physics here!
-				for (auto c : pCollisionManager->mContacts)
-				{
-					if (
-						((pBody1->mpOwner->mType == BULLET && pBody2->mpOwner->mType == METEOR)
-						|| (pBody2->mpOwner->mType == BULLET && pBody1->mpOwner->mType == METEOR))
-						
-						||
-						
-						((pBody1->mpOwner->mType == HOMINGMISSILE && pBody2->mpOwner->mType == METEOR)
-						|| (pBody2->mpOwner->mType == HOMINGMISSILE && pBody1->mpOwner->mType == METEOR))
-						
-						||
-
-						((pBody1->mpOwner->mType == NUCLEARMISSILE && pBody2->mpOwner->mType == METEOR)
-						|| (pBody2->mpOwner->mType == NUCLEARMISSILE && pBody1->mpOwner->mType == METEOR))
-						
-						||
-						
-						((pBody1->mpOwner->mType == BULLET && pBody2->mpOwner->mType == ENEMYSHIP)
-						|| (pBody2->mpOwner->mType == BULLET && pBody1->mpOwner->mType == ENEMYSHIP))
-
-						||
-
-						((pBody1->mpOwner->mType == METEOR && pBody2->mpOwner->mType == SHIELD)
-						|| (pBody2->mpOwner->mType == METEOR && pBody1->mpOwner->mType == SHIELD))
-
-						||
-
-						((pBody1->mpOwner->mType == ENEMYBULLET && pBody2->mpOwner->mType == SHIELD)
-						|| (pBody2->mpOwner->mType == ENEMYBULLET && pBody1->mpOwner->mType == SHIELD))
-					)
-					{
-						CollideEvent ce;
-						c->mBodies[0]->mpOwner->HandleEvent(&ce);
-						c->mBodies[1]->mpOwner->HandleEvent(&ce);
-					}
-
-					if (((pBody1->mpOwner->mType == METEOR && pBody2->mpOwner->mType == PLAYER)
-						|| (pBody2->mpOwner->mType == METEOR && pBody1->mpOwner->mType == PLAYER))
-						
-						||
-
-						((pBody1->mpOwner->mType == ENEMYBULLET && pBody2->mpOwner->mType == PLAYER)
-						|| (pBody2->mpOwner->mType == ENEMYBULLET && pBody1->mpOwner->mType == PLAYER))
-					)
-					{
-						//auto bodyPair = std::make_pair(pBody1, pBody2);
-						//eventBodyList.insert<std::pair, EventType>(bodyPair, METEORHIT);
-						//eventBodyList.insert(std::pair<std::pair<Body*,Body*>,EventType>(bodyPair , METEORHIT));
-						//eventBodyList[bodyPair] = METEORHIT;//.insert(bodyPair, METEORHIT);
-
-						MeteorHitEvent mh;
-						c->mBodies[0]->mpOwner->HandleEvent(&mh);
-						c->mBodies[1]->mpOwner->HandleEvent(&mh);
-					}
-
-				}
 			}
-
 		}
-
 	}
 
-	// Super advanced physics
+	// Super advanced physics here! YEAH LOL
+	for (auto c : pCollisionManager->mContacts)
+	{
+		Body *pBody1 = c->mBodies[0];
+		Body *pBody2 = c->mBodies[1];
+
+		if (
+			((pBody1->mpOwner->mType == BULLET && pBody2->mpOwner->mType == METEOR)
+			|| (pBody2->mpOwner->mType == BULLET && pBody1->mpOwner->mType == METEOR))
+						
+			||
+						
+			((pBody1->mpOwner->mType == HOMINGMISSILE && pBody2->mpOwner->mType == METEOR)
+			|| (pBody2->mpOwner->mType == HOMINGMISSILE && pBody1->mpOwner->mType == METEOR))
+						
+			||
+
+			((pBody1->mpOwner->mType == NUCLEARMISSILE && pBody2->mpOwner->mType == METEOR)
+			|| (pBody2->mpOwner->mType == NUCLEARMISSILE && pBody1->mpOwner->mType == METEOR))
+						
+			||
+						
+			((pBody1->mpOwner->mType == BULLET && pBody2->mpOwner->mType == ENEMYSHIP)
+			|| (pBody2->mpOwner->mType == BULLET && pBody1->mpOwner->mType == ENEMYSHIP))
+
+			||
+
+			((pBody1->mpOwner->mType == METEOR && pBody2->mpOwner->mType == SHIELD)
+			|| (pBody2->mpOwner->mType == METEOR && pBody1->mpOwner->mType == SHIELD))
+
+			||
+
+			((pBody1->mpOwner->mType == ENEMYBULLET && pBody2->mpOwner->mType == SHIELD)
+			|| (pBody2->mpOwner->mType == ENEMYBULLET && pBody1->mpOwner->mType == SHIELD))
+		)
+		{
+			CollideEvent ce;
+			c->mBodies[0]->mpOwner->HandleEvent(&ce);
+			c->mBodies[1]->mpOwner->HandleEvent(&ce);
+		}
+
+		if (((pBody1->mpOwner->mType == METEOR && pBody2->mpOwner->mType == PLAYER)
+			|| (pBody2->mpOwner->mType == METEOR && pBody1->mpOwner->mType == PLAYER))
+						
+			||
+
+			((pBody1->mpOwner->mType == ENEMYBULLET && pBody2->mpOwner->mType == PLAYER)
+			|| (pBody2->mpOwner->mType == ENEMYBULLET && pBody1->mpOwner->mType == PLAYER))
+		)
+		{
+			//auto bodyPair = std::make_pair(pBody1, pBody2);
+			//eventBodyList.insert<std::pair, EventType>(bodyPair, METEORHIT);
+			//eventBodyList.insert(std::pair<std::pair<Body*,Body*>,EventType>(bodyPair , METEORHIT));
+			//eventBodyList[bodyPair] = METEORHIT;//.insert(bodyPair, METEORHIT);
+
+			MeteorHitEvent mh;
+			c->mBodies[0]->mpOwner->HandleEvent(&mh);
+			c->mBodies[1]->mpOwner->HandleEvent(&mh);
+		}
+		
+
+	}
 
 }

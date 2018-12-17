@@ -66,12 +66,28 @@
         }
   },
 
+  "Player5": {
+        "file": "Text.json",
+        "Text" : {
+            "string": "-> Once you get nuclear missile, press RMB to shoot.",
+            "posx"    : 25.0,
+            "posy"    : 340.0,
+            "scale"   : 1.0,
+            "colorx"  : 0.5,
+            "colory"  : 0.5,
+            "colorz"  : 0.5,
+            "timer"   : 0.2,
+            "count"   : -1,
+            "isAnim"  : false
+        }
+  },
+
   "Player4": {
         "file": "Text.json",
         "Text" : {
             "string": "-> Hit P for pausing the game & then again keep pressing P to see each frame.",
             "posx"    : 25.0,
-            "posy"    : 340.0,
+            "posy"    : 295.0,
             "scale"   : 1.0,
             "colorx"  : 0.5,
             "colory"  : 0.5,
@@ -87,7 +103,7 @@
         "Text" : {
             "string": "-> Hit S to resume.",
             "posx"    : 25.0,
-            "posy"    : 295.0,
+            "posy"    : 250.0,
             "scale"   : 1.0,
             "colorx"  : 0.5,
             "colory"  : 0.5,
@@ -103,7 +119,7 @@
         "Text" : {
             "string": "-> D for debug mode.",
             "posx"    : 25.0,
-            "posy"    : 250.0,
+            "posy"    : 205.0,
             "scale"   : 1.0,
             "colorx"  : 0.5,
             "colory"  : 0.5,
